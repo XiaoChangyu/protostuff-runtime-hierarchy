@@ -1,9 +1,12 @@
-![protostuff-runtime-hierarchy]
+protostuff-runtime-hierarchy
+============================
+
 
 一个在 Protostuff-runtime 的基础上扩展序列化方式的工具.
 扩展的序列化方式是:
 在兼容原 Protostuff-runtime 的基础上, 可以将多个维度层级的 Bean 嵌套关系的序列化字节数组反序列化成低维度的 Bean 嵌套关系. 同时, 可以反向序列化还原.
 Usage (maven)
+-------------
 
 1. When you generate schemas for your classes
    
@@ -70,8 +73,9 @@ Under the p.ka.test.protostuff.hierarchy.bean.hierarchytag path, I add a mix sub
 The detail in the p.ka.test.protostuff.hierarchy.bean.hierarchytag.mix.HierarchyTest_HierarchyTagMix.java file, the same as p.ka.test.protostuff.hierarchy.bean.customtag.mix.HierarchyTest_CustomTagMix.java.
 
 
-
-------------------------------- The below is original Protostuff README.md (以下是 Protostuff 的 README.md) -------------------------------
+****
+### The below is original Protostuff README.md (以下是 Protostuff 的 README.md)
+### The Protostuff github site is https://github.com/protostuff/protostuff
 
 ![Protostuff](http://www.protostuff.io/images/protostuff_300x100.png)
 
